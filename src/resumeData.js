@@ -89,17 +89,17 @@ Soporte en Moodle, Zoom y Microsoft Teams.`
 Gestión completa del ciclo de proyecto: análisis, desarrollo, puesta en producción y mantenimiento evolutivo.`
       }
     ],
-    "skillsDescription":"Stack técnico",
-    "skills":[
-      { "skillname": "PHP", "level": 90 },
-      { "skillname": "Node.js", "level": 80 },
-      { "skillname": "APIs REST", "level": 90 },
-      { "skillname": "PrestaShop", "level": 90 },
-      { "skillname": "MySQL / PostgreSQL", "level": 85 },
-      { "skillname": "Docker", "level": 75 },
-      { "skillname": "n8n / Automatización", "level": 80 },
-      { "skillname": "TypeScript", "level": 55 }
-    ],
+	"skillsDescription":"Soft Skills",
+	"skills":[
+	  { "skillname": "Resolución de problemas", "level": 90 },
+	  { "skillname": "Comunicación técnica", "level": 85 },
+	  { "skillname": "Autonomía", "level": 90 },
+	  { "skillname": "Atención al detalle", "level": 90 },
+	  { "skillname": "Trabajo en equipo", "level": 85 },
+	  { "skillname": "Adaptabilidad", "level": 85 },
+	  { "skillname": "Gestión del tiempo", "level": 80 },
+	  { "skillname": "Documentación", "level": 85 }
+	],
     "portfolio":[
       {
         "name": "Cursor AI Governance — Core",
