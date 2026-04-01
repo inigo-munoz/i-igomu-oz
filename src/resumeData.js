@@ -1,8 +1,8 @@
 let resumeData = {
     "imagebaseurl":"https://portfolio-inigomunoz.netlify.app/",
-    "name": "Íñigo Muñoz",
-    "role": "Backend Developer | APIs REST · Integraciones SAP · E-commerce",
-    "roleDescription": "Especializado en APIs REST, integraciones empresariales (SAP) y e-commerce. +130K clientes sincronizados en 5 países.",
+    "name": "Íñigo Muñoz Jiménez",
+    "role": "Backend Developer & Technical Owner | APIs REST · Integraciones · E-commerce",
+    "roleDescription": "Especializado en APIs REST, integraciones empresariales y e-commerce crítico. +130K clientes sincronizados en 5 países.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -11,16 +11,16 @@ let resumeData = {
         },
         {
           "name":"github",
-          "url":"https://github.com/DevInigo",
+          "url":"https://github.com/inigo-munoz",
           "className":"fa fa-github"
         },
         {
           "name":"mail",
-          "url":"mailto:annattar@gmail.com",
+          "url":"mailto:inigomunozjimenez@gmail.com",
           "className":"fa fa-envelope"
         }
       ],
-    "aboutme":"Desarrollador Backend con experiencia en diseño de APIs REST, integraciones empresariales (SAP) y e-commerce. En IAGT he trabajado en proyectos de escala real: integración PrestaShop-SAP para +130K clientes en 5 países, API REST completa para app móvil, y automatización de marketing con Connectif. Stack actual: PHP, PrestaShop, BigCommerce. Aplico testing con PHPUnit y trabajo con Docker, Git y herramientas de IA. Abierto a roles con proyección hacia Node.js/TypeScript.",
+    "aboutme":"Backend Developer con experiencia en integraciones empresariales, APIs REST y e-commerce B2B/B2C a escala. Actúo como referente técnico en proyectos críticos: arquitectura, estimación, desarrollo y entrega end-to-end con contacto directo al cliente. Stack principal en PHP, con experiencia real en Node.js en producción y evolución activa hacia TypeScript. Abierto a roles de Backend Developer o Technical Owner/Lead en entornos 100% remotos.",
     "education":[
       {
         "UniversityName":"Ironhack",
@@ -39,81 +39,92 @@ let resumeData = {
     ],
     "work":[
         {
-          "CompanyName": "IAGT 'Amazing Software'",
-          "specialization": "Backend Developer",
+          "CompanyName": "Backend Developer & Technical Owner",
+          "specialization": "Remoto · Abril 2023 – Actualidad",
           "MonthOfEnter": "Apr",
           "MonthOfLeaving": "Now",
           "YearOfLeaving": "2023",
-          "Achievements": `Único desarrollador certificado en BigCommerce de la empresa, habilitando el partnership oficial.
+          "Achievements": `Único desarrollador backend en proyectos críticos de e-commerce e integración empresarial. Responsable de arquitectura, estimación, desarrollo y entrega con contacto directo al cliente.
 
-Integración bidireccional PrestaShop ↔ SAP para Dentaid: +130K clientes sincronizados en 10 entornos (B2B/B2C) y 5 países (España, Perú, Chile, Italia, Alemania).
+Dentaid — Technical Owner de integración bidireccional PrestaShop ↔ SAP: +130.000 clientes sincronizados en 10 entornos (B2B/B2C) y 5 países.
 
-API REST completa para app móvil React Native (TCM Gourmet): 20+ endpoints con autenticación JWT, catálogo, carrito, checkout y pedidos.
+WhatsApp Business Agent — Sistema de detección de oportunidades de negocio: Node.js + n8n + PostgreSQL + Docker. Arquitectura en dos capas: backend (lógica) y n8n (orquestación).
 
-Sistema de contraofertas (Recoautos): workflow de estados, notificaciones email y panel de gestión. Implementación de Connectif para automatización de marketing.
+TCM Gourmet — API REST completa para app móvil React Native: 20+ endpoints, autenticación JWT, catálogo, carrito y pedidos.
 
-Buscador AJAX con filtros dinámicos y optimización SQL, mejorando rendimiento y experiencia de usuario.
+Recoautos — Sistema de contraofertas con workflow de estados, notificaciones y panel de administración. Integración con Connectif.
 
-Tests unitarios con PHPUnit para módulos SAP, asegurando estabilidad en producción.
+Cursor AI Governance — Definición e implementación de gobernanza de uso del agente de IA para el equipo: reglas operativas, convenciones de código y estándares por tipo de proyecto.
 
-Clientes: Dentaid, TCM Gourmet, Recoautos, Flex, Servovendi, Alfadyser.`
+Único desarrollador certificado en BigCommerce de la empresa, habilitando el partnership oficial con la plataforma.
+
+Stack: PHP · Node.js · TypeScript · MySQL · PostgreSQL · Docker · APIs REST · JWT · PrestaShop · BigCommerce · PHPUnit · Git`
         },
       {
-        "CompanyName":"Ironhack",
-        "specialization":"Teacher Assistant",
+        "CompanyName":"Technical Teaching Assistant",
+        "specialization":"Ironhack · Remoto · Sep 2022 – Nov 2022",
         "MonthOfEnter":"Sept",
         "MonthOfLeaving":"Nov",
         "YearOfLeaving":"2022",
-        "Achievements":`Asistente técnico en bootcamp intensivo de desarrollo web full stack (MERN).
-
-Tutoría técnica en JavaScript, Node.js, React y MongoDB.
-Resolución de dudas y debugging en proyectos prácticos.
-Revisión de código y feedback sobre buenas prácticas.`
+        "Achievements":`Mentoría técnica a estudiantes en proyectos full stack con JavaScript, Node.js, React y MongoDB.
+Revisión de código, debugging en tiempo real y refuerzo de buenas prácticas en entorno ágil intensivo.`
       },
       {
-        "CompanyName":"Universidad de Huelva",
-        "specialization":"Técnico de Sistemas & Desarrollador",
+        "CompanyName":"IT & Backend Developer",
+        "specialization":"Universidad de Huelva · Abr 2021 – Mar 2022",
         "MonthOfEnter":"Apr",
         "MonthOfLeaving":"Mar",
         "YearOfLeaving":"2022",
-        "Achievements":`Implementación de wiki con BookStack para ~13.000 usuarios (estudiantes y profesores).
-
-Desarrollo de funcionalidades en PHP para integraciones con LiveChat e ItopHub.
-
-Soporte en plataformas educativas: Moodle, Zoom, Microsoft Teams.
-
-Documentación técnica y gestión de tickets en entorno Linux.`
+        "Achievements":`Desarrollo y personalización de wiki interna con BookStack para ~13.000 usuarios, reduciendo incidencias en un 50%.
+Implementación de funcionalidades en PHP con integraciones a LiveChat e iTopHub.
+Soporte en Moodle, Zoom y Microsoft Teams.`
+      },
+      {
+        "CompanyName":"Freelance Web Developer",
+        "specialization":"Autónomo · Remoto · May 2017 – Mar 2021",
+        "MonthOfEnter":"May",
+        "MonthOfLeaving":"Mar",
+        "YearOfLeaving":"2021",
+        "Achievements":`Diseño, desarrollo e implantación de proyectos web y e-commerce (WordPress, PrestaShop) para clientes del sector cultural y comercio local.
+Gestión completa del ciclo de proyecto: análisis, desarrollo, puesta en producción y mantenimiento evolutivo.`
       }
     ],
-    "skillsDescription":"Soft Skills",
-    "skills":[ 
-      { "skillname": "Resolución de problemas", "level": 90 },
-      { "skillname": "Comunicación técnica", "level": 85 },
-      { "skillname": "Trabajo en equipo", "level": 85 },
-      { "skillname": "Autonomía", "level": 90 },
-      { "skillname": "Adaptabilidad", "level": 85 },
-      { "skillname": "Atención al detalle", "level": 90 },
-      { "skillname": "Gestión del tiempo", "level": 80 },
-      { "skillname": "Documentación", "level": 85 }
+    "skillsDescription":"Stack técnico",
+    "skills":[
+      { "skillname": "PHP", "level": 90 },
+      { "skillname": "Node.js", "level": 80 },
+      { "skillname": "APIs REST", "level": 90 },
+      { "skillname": "PrestaShop", "level": 90 },
+      { "skillname": "MySQL / PostgreSQL", "level": 85 },
+      { "skillname": "Docker", "level": 75 },
+      { "skillname": "n8n / Automatización", "level": 80 },
+      { "skillname": "TypeScript", "level": 55 }
     ],
     "portfolio":[
       {
-        "name": "CounterOffer API",
-        "description": "API REST en Node.js para gestión de contraofertas en ecommerce...",
+        "name": "Cursor AI Governance — Core",
+        "description": "Framework de gobernanza técnica para equipos que usan Cursor AI. Define principios, estructura de stacks y flujo SDD para desarrollo consistente en entornos ecommerce críticos.",
         "imgurl": "https://res.cloudinary.com/djersm2h6/image/upload/v1768307348/counteroffer_nouho4.png",
-        "url": "https://counteroffer-api-production.up.railway.app",
-        "giturlf": "https://github.com/luthiwd/counteroffer-api"
+        "url": "https://github.com/inigo-munoz/cursor-governance-core",
+        "giturlf": "https://github.com/inigo-munoz/cursor-governance-core"
       },
       {
-        "name": "API PrestaShop (TCM Gourmet)",
-        "description": "API REST completa para app móvil React Native. 20+ endpoints: autenticación JWT, catálogo, carrito, checkout y pedidos.",
+        "name": "Cursor AI Governance — PrestaShop 8",
+        "description": "Stack de gobernanza para PrestaShop 8 con Cursor AI. Cubre Service Layer, multishop, integraciones SAP, seguridad y flujo SDD completo.",
         "imgurl": "https://res.cloudinary.com/djersm2h6/image/upload/v1751021910/prestaapi_er9ssx.png",
-        "url": "",
-        "giturlf": "https://github.com/DevInigo/iagtapi"
+        "url": "https://github.com/inigo-munoz/cursor-governance-prestashop8",
+        "giturlf": "https://github.com/inigo-munoz/cursor-governance-prestashop8"
+      },
+      {
+        "name": "CounterOffer API",
+        "description": "API REST en Node.js para gestión de contraofertas en ecommerce. Workflow de estados, notificaciones y panel de administración.",
+        "imgurl": "https://res.cloudinary.com/djersm2h6/image/upload/v1768307348/counteroffer_nouho4.png",
+        "url": "https://counteroffer-api-production.up.railway.app",
+        "giturlf": "https://github.com/inigo-munoz/counteroffer-api"
       },
       {
         "name":"Wiki Universidad de Huelva",
-        "description":"Wiki con BookStack para ~13.000 usuarios. Soporte a estudiantes y profesores.",
+        "description":"Wiki con BookStack para ~13.000 usuarios. Reducción del 50% en incidencias de soporte.",
         "imgurl":"https://res.cloudinary.com/djersm2h6/image/upload/v1655982892/imagesportfolio/uhu_mn5ost.png",
         "url": "https://ayudame.uhu.es/docs/",
         "giturlf": ""
@@ -123,23 +134,14 @@ Documentación técnica y gestión de tickets en entorno Linux.`
         "description":"Aplicación para gimnasios y entrenadores. Proyecto Ironhack (Node.js, MongoDB, Express).",
         "imgurl":"https://res.cloudinary.com/djersm2h6/image/upload/v1655546449/imagesportfolio/vinegar_1_y7kprc.png",
         "url": "https://vinegar-y9kl.onrender.com/",
-        "giturlf": "https://github.com/luthiwd/vinegar"
+        "giturlf": "https://github.com/inigo-munoz/vinegar"
       },
       {
         "name":"Miecocaja",
-        "description":"Plataforma e-commerce ecológica. Proyecto Ironhack (React, Node.js, MongoDB).",  
+        "description":"Plataforma e-commerce ecológica. Proyecto Ironhack (React, Node.js, MongoDB).",
         "imgurl":"https://res.cloudinary.com/djersm2h6/image/upload/v1655546450/imagesportfolio/miecocaja_1_xz5ub7.png",
         "url": "https://ecocajas.netlify.app/",
-        "giturlf": "https://github.com/luthiwd/cajas-ecologicas-client",
-        "giturlb": "https://github.com/luthiwd/cajas-ecologicas-server"
-      },
-      {
-        "name":"BeeMoving",
-        "description":"Aplicación para gestión de colmenas. Proyecto Ironhack (React, Node.js).",
-        "imgurl":"https://res.cloudinary.com/djersm2h6/image/upload/v1655546452/imagesportfolio/beemoving_w8gzkc.png",
-        "url": "https://beemoving.netlify.app/",
-        "giturlf": "https://github.com/luthiwd/beemoving-client",
-        "giturlb": "https://github.com/luthiwd/beemoving-server"
+        "giturlf": "https://github.com/inigo-munoz/cajas-ecologicas-client"
       },
       {
         "name":"Cerveza Belona",
@@ -151,10 +153,10 @@ Documentación técnica y gestión de tickets en entorno Linux.`
     ],
     "testimonials":[
       {
-        "description":"Durante el bootcamp de Desarrollo Web, Iñigo se destacó como uno de los mejores estudiantes, continuamente demostrando una gran dedicación e interés por la materia. También demostró grandes habilidades de trabajo en equipo y soporte a sus compañeros. Sin duda cualquier empresa conseguiría un desarrollador con excelentes cualidades técnicas y personales al contratar a Iñigo!",
-        "name":"Jorge Luis Berrizbeitia Rivas - Tech Lead Ironhack"
+        "description":"Durante el bootcamp de Desarrollo Web, Iñigo se destacó como uno de los mejores estudiantes, continuamente demostrando una gran dedicación e interés por la materia. También demostró grandes habilidades de trabajo en equipo y soporte a sus compañeros. Sin duda cualquier empresa conseguiría un desarrollador con excelentes cualidades técnicas y personales al contratar a Iñigo.",
+        "name":"Jorge Luis Berrizbeitia Rivas — Tech Lead, Ironhack"
       }
     ]
   }
-  
-  export default resumeData
+
+export default resumeData
