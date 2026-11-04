@@ -11,7 +11,7 @@ import {
   SiExpress,
   SiReact
 } from 'react-icons/si'
-import { FaHtml5, FaCss3Alt, FaNodeJs, FaBootstrap, FaWordpress, FaGitSquare, FaGithub, FaStripe } from 'react-icons/fa'
+import { FaNodeJs, FaGitSquare, FaGithub } from 'react-icons/fa'
 
 export default class Resume extends Component {
   render() {

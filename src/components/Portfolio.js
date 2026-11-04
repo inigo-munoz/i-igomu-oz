@@ -16,19 +16,19 @@ export default class Porfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     
-                      <img src={item.imgurl} className="item-img"/>
+                      <img src={item.imgurl} className="item-img" alt={item.name}/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                           <ul className='hard-list'>
-                          {item.giturlf && <a href={`${item.giturlf}`} target="_blank">
+                          {item.giturlf && <a href={`${item.giturlf}`} target="_blank" rel="noreferrer">
                               <li className="hard-li" title="GithubFront"><FaGithub style={{fontSize: "35px", color:"white"}}/></li>
                             </a>}
-                          {item.giturlb && <a href={`${item.giturlb}`} target="_blank">
+                          {item.giturlb && <a href={`${item.giturlb}`} target="_blank" rel="noreferrer">
                               <li className="hard-li" title="GithubBack"><FaGithub style={{fontSize: "35px", color:"white"}}/></li>
                             </a>}
-                          {item.url && <a href={`${item.url}`} target="_blank">
+                          {item.url && <a href={`${item.url}`} target="_blank" rel="noreferrer">
                               <li className="hard-li" title="Web"><MdHttp style={{fontSize: "35px", color:"white"}}/></li>
                             </a>}  
                             
@@ -48,20 +48,20 @@ export default class Porfolio extends Component {
                 return (
                   <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href={`${item.url}`} target="_blank">
-                      <img src={item.imgurl} className="item-img"/>
+                    <a href={`${item.url}`} target="_blank" rel="noreferrer">
+                      <img src={item.imgurl} className="item-img" alt={item.name}/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                           <ul className='hard-list'>
-                          {item.giturlf && <a href={`${item.giturlf}`} target="_blank">
+                          {item.giturlf && <a href={`${item.giturlf}`} target="_blank" rel="noreferrer">
                               <li className="hard-li" title="GithubFront"><FaGithub style={{fontSize: "35px", color:"white"}}/></li>
                             </a>}
-                          {item.giturlb && <a href={`${item.giturlb}`} target="_blank">
+                          {item.giturlb && <a href={`${item.giturlb}`} target="_blank" rel="noreferrer">
                               <li className="hard-li" title="GithubBack"><FaGithub style={{fontSize: "35px", color:"white"}}/></li>
                             </a>}
-                          {item.url && <a href={`${item.url}`} target="_blank">
+                          {item.url && <a href={`${item.url}`} target="_blank" rel="noreferrer">
                               <li className="hard-li" title="Web"><MdHttp style={{fontSize: "35px", color:"white"}}/></li>
                             </a>}  
                             
