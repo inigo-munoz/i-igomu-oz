@@ -44,21 +44,21 @@ let resumeData = {
           "MonthOfEnter": "Apr",
           "MonthOfLeaving": "Now",
           "YearOfLeaving": "2023",
-          "Achievements": `Único desarrollador backend en proyectos críticos de e-commerce e integración empresarial. Responsable de arquitectura, estimación, desarrollo y entrega con contacto directo al cliente.
+          "Achievements": `Desarrollador backend principal y responsable técnico en proyectos críticos de e-commerce e integración empresarial: arquitectura, estimación, entrega, comunicación directa con cliente y coordinación del equipo.
 
-Dentaid — Technical Owner de integración bidireccional PrestaShop ↔ SAP: +130.000 clientes sincronizados en 10 entornos (B2B/B2C) y 5 países.
+Integración bidireccional PrestaShop ↔ SAP para un grupo multinacional: +130.000 clientes sincronizados en 10 entornos (B2B/B2C) y 5 países. Unificación de sus módulos en un único código para PrestaShop 9, con credenciales cifradas, tests golden-file y conexión con Salesforce.
 
-WhatsApp Business Agent — Sistema de detección de oportunidades de negocio: Node.js + n8n + PostgreSQL + Docker. Arquitectura en dos capas: backend (lógica) y n8n (orquestación).
+Migración de BigCommerce a PrestaShop 9 (590 h): conector con Business Central desde cero, pedidos de marketplaces (Mirakl) con el IVA validado al céntimo, URLs idénticas para conservar el SEO e integración con TecAlliance.
 
-TCM Gourmet — API REST completa para app móvil React Native: 20+ endpoints, autenticación JWT, catálogo, carrito y pedidos.
+Coordinación técnica de 2 desarrolladores: asignación de tareas por sprint y aprobación de cada pull request.
 
-Recoautos — Sistema de contraofertas con workflow de estados, notificaciones y panel de administración. Integración con Connectif.
+API REST en PHP para una app móvil de e-commerce (React Native): 20+ endpoints, autenticación JWT, catálogo, carrito y pedidos.
 
-Cursor AI Governance — Definición e implementación de gobernanza de uso del agente de IA para el equipo: reglas operativas, convenciones de código y estándares por tipo de proyecto.
+Autor del framework de gobernanza de IA de la compañía, adoptado por todo el equipo. SonarQube y PHPStan como gates en CI/CD.
 
 Único desarrollador certificado en BigCommerce de la empresa, habilitando el partnership oficial con la plataforma.
 
-Stack: PHP · Node.js · TypeScript · MySQL · PostgreSQL · Docker · APIs REST · JWT · PrestaShop · BigCommerce · PHPUnit · Git`
+Stack: PHP · Laravel · PrestaShop · BigCommerce · Business Central · SAP · Node.js · TypeScript · MySQL · PostgreSQL · Docker · PHPUnit · PHPStan`
         },
       {
         "CompanyName":"Technical Teaching Assistant",
@@ -101,6 +101,20 @@ Gestión completa del ciclo de proyecto: análisis, desarrollo, puesta en produc
 	  { "skillname": "Documentación", "level": 85 }
 	],
     "portfolio":[
+      {
+        "name": "Pomodoro Fantasy",
+        "description": "Temporizador Pomodoro gamificado: cada bloque de estudio da monedas para criar un dragón. PWA instalable, funciona sin conexión y sin backend.",
+        "imgurl": "https://inigo-munoz.github.io/pomodoro-fantasy/art/backdrops/title.webp",
+        "url": "https://inigo-munoz.github.io/pomodoro-fantasy/",
+        "giturlf": "https://github.com/inigo-munoz/pomodoro-fantasy"
+      },
+      {
+        "name": "Little Master",
+        "description": "Asistente de escritorio para directores de juego de D&D 2024: campañas, PNJ, encuentros y reglas, con IA (OpenAI, Claude u Ollama). Local-first, TypeScript y React.",
+        "imgurl": "https://raw.githubusercontent.com/inigo-munoz/little-master/main/app/desktop/src-tauri/icons/Square142x142Logo.png",
+        "url": "https://github.com/inigo-munoz/little-master",
+        "giturlf": "https://github.com/inigo-munoz/little-master"
+      },
       {
         "name": "Cursor AI Governance — Core",
         "description": "Framework de gobernanza técnica para equipos que usan Cursor AI. Define principios, estructura de stacks y flujo SDD para desarrollo consistente en entornos ecommerce críticos.",
