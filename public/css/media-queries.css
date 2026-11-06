@@ -208,6 +208,7 @@
       line-height: 36px;      
    }
    header .social li { margin: 0 10px; }
+   header .social li a { text-shadow: 0 1px 8px rgba(0, 0, 0, 0.9); }
 
     /* scrolldown link */
    header .scrolldown { display: none; }
@@ -215,7 +216,13 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .profile-pic {
+      display: block;
+      width: 110px;
+      height: 110px;
+      margin: 0 auto 24px;
+   }
+   #about .download { width: 100%; }
    #about .download .button {
       width: 100%;
       text-align: center;
@@ -372,11 +379,18 @@
 
 }
 
+/* touch screens: no hover, so show project info below each image
+  -------------------------------------------------------------------------- */
 
-
-
-
-
-
-
-
+@media (hover: none) {
+   #portfolio-wrapper .portfolio-item .item-wrap { aspect-ratio: auto; }
+   #portfolio-wrapper .portfolio-item .item-wrap img {
+      height: auto;
+      aspect-ratio: 4 / 3;
+   }
+   #portfolio-wrapper .portfolio-item .item-wrap .overlay {
+      position: static;
+      opacity: 1;
+      overflow: visible;
+   }
+}
