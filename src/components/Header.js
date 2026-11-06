@@ -43,7 +43,7 @@ export default class Header extends Component {
             <div className="banner-text">
               <h1 className="responsive-headline">{resumeData.name}</h1>
               <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
-                {resumeData.role}.{resumeData.roleDescription}
+                {resumeData.role}. {resumeData.roleDescription}
               </h3>
               <hr />
               <ul className="social">
@@ -51,7 +51,7 @@ export default class Header extends Component {
                   resumeData.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} target="_blank" rel="noreferrer">
+                        <a href={item.url} target="_blank" rel="noreferrer" aria-label={item.name}>
                           <i className={item.className}></i>
                         </a>
                       </li>

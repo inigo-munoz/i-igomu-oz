@@ -9,13 +9,18 @@ export default class About extends Component {
             <img
               className="profile-pic"
               src="https://res.cloudinary.com/djersm2h6/image/upload/v1655478956/imagesportfolio/1645705689976_hujgkc.jpg"
-              alt=""
+              alt="Íñigo Muñoz"
             />
           </div>
 
          <div className="nine columns main-col">
             <h2>¡Hola, hola!</h2>
             <p>{resumeData.aboutme}</p>
+            <div className="download">
+              <a className="button" href="/CV_Inigo_Munoz.pdf" download="CV_Inigo_Munoz.pdf">
+                <i className="fa fa-download"></i>Descargar CV
+              </a>
+            </div>
 
             {/* <div className="row">
                <div className="columns contact-details">

@@ -1,11 +1,19 @@
 import React, { Component } from "react";
-import { 
-  SiPhp, 
-  SiPrestashop, 
-  SiMysql, 
-  SiDocker, 
-  SiJavascript, 
-  SiPostman, 
+import {
+  SiPhp,
+  SiLaravel,
+  SiPrestashop,
+  SiBigcommerce,
+  SiDynamics365,
+  SiSap,
+  SiSalesforce,
+  SiTypescript,
+  SiJavascript,
+  SiMysql,
+  SiPostgresql,
+  SiDocker,
+  SiSonarqube,
+  SiPostman,
   SiJira,
   SiMongodb,
   SiExpress,
@@ -30,7 +38,7 @@ export default class Resume extends Component {
             {resumeData.education &&
               resumeData.education.map((item) => {
                 return (
-                  <div className="row item">
+                  <div className="row item" key={item.UniversityName}>
                     <div className="twelve columns">
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
@@ -58,18 +66,11 @@ export default class Resume extends Component {
             {resumeData.work &&
               resumeData.work.map((item) => {
                 return (
-                  <div className="row item">
+                  <div className="row item" key={item.CompanyName}>
                     <div className="twelve columns">
                       <h3>{item.CompanyName}</h3>
-                      <p className="info">
-                        {item.specialization}
-                        <span>&bull;</span>{" "}
-                        <em className="date">
-                          {item.MonthOfEnter} to {" "}
-                          {item.MonthOfLeaving} {item.YearOfLeaving}
-                        </em>
-                      </p>
-                      <p>{item.Achievements}</p>
+                      <p className="info">{item.specialization}</p>
+                      <p className="achievements">{item.Achievements}</p>
                     </div>
                   </div>
                 );
@@ -85,14 +86,13 @@ export default class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <p>{resumeData.skillsDescription}</p>
 
             <div className="bars">
               <ul className="skills">
                 {resumeData.skills &&
                   resumeData.skills.map((item) => {
                     return (
-                      <li>
+                      <li key={item.skillname}>
                         <span
                           className="bar-expand"
                           style={{ width: `${item.level}%` }}
@@ -113,24 +113,30 @@ export default class Resume extends Component {
           </div>
           <div className="twelve columns">
             <ul className="hard-list">
-              {/* Stack principal - Producción */}
-              <li className="hard-li" title="PHP"><SiPhp style={{fontSize: "45px"}}/></li>
-              <li className="hard-li" title="PrestaShop"><SiPrestashop style={{fontSize: "45px"}}/></li>
-              <li className="hard-li" title="MySQL"><SiMysql style={{fontSize: "45px"}}/></li>
-              <li className="hard-li" title="JavaScript"><SiJavascript style={{fontSize: "45px"}}/></li>
-              
-              {/* Herramientas */}
-              <li className="hard-li" title="Docker"><SiDocker style={{fontSize: "45px"}}/></li>
-              <li className="hard-li" title="Git"><FaGitSquare style={{fontSize: "45px"}}/></li>
-              <li className="hard-li" title="GitHub"><FaGithub style={{fontSize: "45px"}}/></li>
-              <li className="hard-li" title="Postman"><SiPostman style={{fontSize: "45px"}}/></li>
-              <li className="hard-li" title="Jira"><SiJira style={{fontSize: "45px"}}/></li>
-              
-              {/* Stack secundario - Ironhack/Aprendiendo */}
-              <li className="hard-li" title="Node.js"><FaNodeJs style={{fontSize: "45px"}}/></li>
-              <li className="hard-li" title="Express"><SiExpress style={{fontSize: "45px"}}/></li>
-              <li className="hard-li" title="MongoDB"><SiMongodb style={{fontSize: "45px"}}/></li>
-              <li className="hard-li" title="React"><SiReact style={{fontSize: "45px"}}/></li>
+              {/* Main stack */}
+              <li className="hard-li" title="PHP"><SiPhp style={{fontSize: "45px"}} aria-label="PHP"/></li>
+              <li className="hard-li" title="Laravel"><SiLaravel style={{fontSize: "45px"}} aria-label="Laravel"/></li>
+              <li className="hard-li" title="PrestaShop"><SiPrestashop style={{fontSize: "45px"}} aria-label="PrestaShop"/></li>
+              <li className="hard-li" title="BigCommerce"><SiBigcommerce style={{fontSize: "45px"}} aria-label="BigCommerce"/></li>
+              <li className="hard-li" title="Business Central"><SiDynamics365 style={{fontSize: "45px"}} aria-label="Business Central"/></li>
+              <li className="hard-li" title="SAP"><SiSap style={{fontSize: "45px"}} aria-label="SAP"/></li>
+              <li className="hard-li" title="Salesforce"><SiSalesforce style={{fontSize: "45px"}} aria-label="Salesforce"/></li>
+              <li className="hard-li" title="Node.js"><FaNodeJs style={{fontSize: "45px"}} aria-label="Node.js"/></li>
+              <li className="hard-li" title="TypeScript"><SiTypescript style={{fontSize: "45px"}} aria-label="TypeScript"/></li>
+              <li className="hard-li" title="JavaScript"><SiJavascript style={{fontSize: "45px"}} aria-label="JavaScript"/></li>
+              <li className="hard-li" title="MySQL"><SiMysql style={{fontSize: "45px"}} aria-label="MySQL"/></li>
+              <li className="hard-li" title="PostgreSQL"><SiPostgresql style={{fontSize: "45px"}} aria-label="PostgreSQL"/></li>
+              {/* Tooling and quality */}
+              <li className="hard-li" title="Docker"><SiDocker style={{fontSize: "45px"}} aria-label="Docker"/></li>
+              <li className="hard-li" title="SonarQube"><SiSonarqube style={{fontSize: "45px"}} aria-label="SonarQube"/></li>
+              <li className="hard-li" title="Git"><FaGitSquare style={{fontSize: "45px"}} aria-label="Git"/></li>
+              <li className="hard-li" title="GitHub"><FaGithub style={{fontSize: "45px"}} aria-label="GitHub"/></li>
+              <li className="hard-li" title="Postman"><SiPostman style={{fontSize: "45px"}} aria-label="Postman"/></li>
+              <li className="hard-li" title="Jira"><SiJira style={{fontSize: "45px"}} aria-label="Jira"/></li>
+              {/* MERN projects */}
+              <li className="hard-li" title="Express"><SiExpress style={{fontSize: "45px"}} aria-label="Express"/></li>
+              <li className="hard-li" title="MongoDB"><SiMongodb style={{fontSize: "45px"}} aria-label="MongoDB"/></li>
+              <li className="hard-li" title="React"><SiReact style={{fontSize: "45px"}} aria-label="React"/></li>
             </ul>
           </div>
       </div>

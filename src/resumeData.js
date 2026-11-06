@@ -1,5 +1,4 @@
 let resumeData = {
-    "imagebaseurl":"https://portfolio-inigomunoz.netlify.app/",
     "name": "Íñigo Muñoz Jiménez",
     "role": "Backend Developer & Technical Owner | APIs REST · Integraciones · E-commerce",
     "roleDescription": "Especializado en APIs REST, integraciones empresariales y e-commerce crítico. +130K clientes sincronizados en 5 países.",
@@ -89,7 +88,6 @@ Soporte en Moodle, Zoom y Microsoft Teams.`
 Gestión completa del ciclo de proyecto: análisis, desarrollo, puesta en producción y mantenimiento evolutivo.`
       }
     ],
-	"skillsDescription":"Soft Skills",
 	"skills":[
 	  { "skillname": "Resolución de problemas", "level": 90 },
 	  { "skillname": "Comunicación técnica", "level": 85 },
@@ -118,7 +116,7 @@ Gestión completa del ciclo de proyecto: análisis, desarrollo, puesta en produc
       {
         "name": "Cursor AI Governance — Core",
         "description": "Framework de gobernanza técnica para equipos que usan Cursor AI. Define principios, estructura de stacks y flujo SDD para desarrollo consistente en entornos ecommerce críticos.",
-        "imgurl": "https://res.cloudinary.com/djersm2h6/image/upload/v1768307348/counteroffer_nouho4.png",
+        "imgurl": "/images/cursor-governance-core.svg",
         "url": "https://github.com/inigo-munoz/cursor-governance-core",
         "giturlf": "https://github.com/inigo-munoz/cursor-governance-core"
       },
@@ -133,7 +131,6 @@ Gestión completa del ciclo de proyecto: análisis, desarrollo, puesta en produc
         "name": "CounterOffer API",
         "description": "API REST en Node.js para gestión de contraofertas en ecommerce. Workflow de estados, notificaciones y panel de administración.",
         "imgurl": "https://res.cloudinary.com/djersm2h6/image/upload/v1768307348/counteroffer_nouho4.png",
-        "url": "https://counteroffer-api-production.up.railway.app",
         "giturlf": "https://github.com/inigo-munoz/counteroffer-api"
       },
       {
@@ -159,9 +156,8 @@ Gestión completa del ciclo de proyecto: análisis, desarrollo, puesta en produc
       },
       {
         "name":"Cerveza Belona",
-        "description":"Tienda e-commerce de cerveza artesanal. Desarrollada en PrestaShop.",
+        "description":"Tienda e-commerce de cerveza artesanal desarrollada en PrestaShop. La empresa ya cerró y la web no está en línea.",
         "imgurl":"https://res.cloudinary.com/djersm2h6/image/upload/v1655546450/imagesportfolio/belona_qmgrwi.png",
-        "url": "https://cervezabelona.com/",
         "giturlf": ""
       }
     ],

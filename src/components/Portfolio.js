@@ -13,7 +13,7 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
+                <div className="columns portfolio-item" key={item.name}>
                   <div className="item-wrap">
                     
                       <img src={item.imgurl} className="item-img" alt={item.name}/>
@@ -23,13 +23,13 @@ export default class Porfolio extends Component {
                           <p>{item.description}</p>
                           <ul className='hard-list'>
                           {item.giturlf && <a href={`${item.giturlf}`} target="_blank" rel="noreferrer">
-                              <li className="hard-li" title="GithubFront"><FaGithub style={{fontSize: "35px", color:"white"}}/></li>
+                              <li className="hard-li" title="GithubFront"><FaGithub style={{fontSize: "28px", color:"white"}}/></li>
                             </a>}
                           {item.giturlb && <a href={`${item.giturlb}`} target="_blank" rel="noreferrer">
-                              <li className="hard-li" title="GithubBack"><FaGithub style={{fontSize: "35px", color:"white"}}/></li>
+                              <li className="hard-li" title="GithubBack"><FaGithub style={{fontSize: "28px", color:"white"}}/></li>
                             </a>}
                           {item.url && <a href={`${item.url}`} target="_blank" rel="noreferrer">
-                              <li className="hard-li" title="Web"><MdHttp style={{fontSize: "35px", color:"white"}}/></li>
+                              <li className="hard-li" title="Web"><MdHttp style={{fontSize: "28px", color:"white"}}/></li>
                             </a>}  
                             
                           </ul>
@@ -40,40 +40,6 @@ export default class Porfolio extends Component {
               )
             })
           }
-          </div>
-          <div>
-            <h1>Proyectos En Desarrollo</h1>
-            {
-              resumeData.development && resumeData.development.map((item) => {
-                return (
-                  <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href={`${item.url}`} target="_blank" rel="noreferrer">
-                      <img src={item.imgurl} className="item-img" alt={item.name}/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
-                          <ul className='hard-list'>
-                          {item.giturlf && <a href={`${item.giturlf}`} target="_blank" rel="noreferrer">
-                              <li className="hard-li" title="GithubFront"><FaGithub style={{fontSize: "35px", color:"white"}}/></li>
-                            </a>}
-                          {item.giturlb && <a href={`${item.giturlb}`} target="_blank" rel="noreferrer">
-                              <li className="hard-li" title="GithubBack"><FaGithub style={{fontSize: "35px", color:"white"}}/></li>
-                            </a>}
-                          {item.url && <a href={`${item.url}`} target="_blank" rel="noreferrer">
-                              <li className="hard-li" title="Web"><MdHttp style={{fontSize: "35px", color:"white"}}/></li>
-                            </a>}  
-                            
-                          </ul>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                )
-              })
-            }
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -22,14 +22,20 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Íñigo Muñoz</title>
+    <title>Íñigo Muñoz · Backend Developer</title>
+    <meta name="description" content="Backend Developer especializado en integraciones SAP y Business Central con e-commerce (PrestaShop, BigCommerce). PHP, Node.js y TypeScript. 100% remoto." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://inigo-munoz.netlify.app/" />
+    <meta property="og:title" content="Íñigo Muñoz · Backend Developer" />
+    <meta property="og:description" content="Integraciones SAP y Business Central con e-commerce. PHP, Node.js y TypeScript. 100% remoto." />
+    <meta property="og:image" content="https://res.cloudinary.com/djersm2h6/image/upload/v1655478956/imagesportfolio/1645705689976_hujgkc.jpg" />
+    <meta name="twitter:card" content="summary" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/magnific-popup.css" />
 
     <script src="%PUBLIC_URL%/js/modernizr.js"></script>
-    <title>Sample resume</title>
   </head>
   <body>
     <noscript> You need to enable JavaScript to run this app. </noscript>
@@ -45,11 +51,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
-      window.jQuery ||
-        document.write('<script src="js/jquery-1.10.2.min.js"><\/script>');
-    </script>
+    <script src="js/jquery-1.10.2.min.js"></script>
     <script
       type="text/javascript"
       src="js/jquery-migrate-1.2.1.min.js"
@@ -59,23 +61,14 @@
     <script src="js/jquery.fittext.js"></script>
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-      $(document).ready(function () {
-        $("a").on("click", function (e) {
-          if (this.hash !== "") {
-            e.preventDefault();
-            let hash = this.hash;
-            $("html, body").animate(
-              {
-                scrollTop: $(hash).offset().top,
-              },
-              800,
-              function () {
-                window.location.hash = hash;
-              }
-            );
-          }
+      // Delegated so it also works for links React renders after this script runs.
+      $(document).on("click", 'a[href^="#"]:not(.mobile-btn)', function (e) {
+        var hash = this.hash;
+        if (!hash || !$(hash).length) return;
+        e.preventDefault();
+        $("html, body").stop().animate({ scrollTop: $(hash).offset().top }, 800, function () {
+          window.location.hash = hash;
         });
       });
     </script>
