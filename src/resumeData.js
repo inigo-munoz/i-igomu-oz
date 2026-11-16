@@ -100,6 +100,13 @@ Gestión completa del ciclo de proyecto: análisis, desarrollo, puesta en produc
 	],
     "portfolio":[
       {
+        "name": "Forja de Color",
+        "description": "Asistente para pintar miniaturas: de la foto a una receta de pintura con tus propias pinturas, usando Claude o ChatGPT sin servidor. PWA y app Android nativa (Kotlin, Jetpack Compose) con un contrato compartido, sin conexión y con 431 tests.",
+        "imgurl": "https://inigo-munoz.github.io/forja-de-color/icon-512.png",
+        "url": "https://inigo-munoz.github.io/forja-de-color/",
+        "giturlf": "https://github.com/inigo-munoz/forja-de-color-android"
+      },
+      {
         "name": "Pomodoro Fantasy",
         "description": "Temporizador Pomodoro gamificado: cada bloque de estudio da monedas para criar un dragón. PWA instalable, funciona sin conexión y sin backend.",
         "imgurl": "https://inigo-munoz.github.io/pomodoro-fantasy/art/backdrops/title.webp",
